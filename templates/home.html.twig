@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<div class="two-col-layout">
+    <main class="main">
+        <article class="article">
+
+        <h1>Home</h1>
+        <p> Acronym: haco22</p>
+        <img src="{{ asset('img/me.jpeg') }}" alt="me">
+        </article>
+    </main>
+
+    <aside class="aside">
+        <h2> Om Hafsa</h2>
+        <p> <b>Namn :</b> Hafsa Choudhury</p>
+        <p> <b>Bor i :</b> Stockholm</p>
+        <p> <b>Hobby :</b> Trädgårdsarbete</p>
+    </aside>
+</div>
+{% endblock %}

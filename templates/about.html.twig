@@ -1,0 +1,25 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+
+{% block body %}
+
+    <div class="two-col-layout">
+        <main class="main">
+            <article class="article">
+                <h2>MVC</h2>
+                <p> Objektorienterade webbteknologier, kurskod DV1608, undervisas vid BTH. Det finns olika kursmoment i denna kurs. I varje kursmoment ska eleverna göra några övningar och uppgifter.Följande bild är en representativ bild för denna kursen.<br><br></p>
+                <img src="img/webtec2.png" height= "420" width= "640" alt=" Webbteknologi" class ="center">
+            </article>
+        </main>
+
+        <aside class="aside">
+            <h2> Kursrepo</h2>
+            <p>Kursen har ett kursrepo <a href="https://github.com/dbwebb-se/mvc">Kursrepo på GitHub </a> där man kan ställa frågor och få svar.</p>
+            <h2> Om den här webbsida</h2>
+            <p> Den här webbsida innehåller lite information om mig själv. Man kan hitta den i <b>Me</b> -mappen. Twig, CSS och PHP används för att skapa denna webbplats.<br> </p>
+        </aside>
+
+    </div>
+{% endblock %}
