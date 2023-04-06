@@ -37,5 +37,14 @@
 }
 
 .lucky {
+    margin-left: 3rem;
     padding: 3rem 5rem 0 3rem;
+}
+
+.img-me {
+    border:1px solid #f5f3f3;
+    display:block;
+    margin:20px auto;
+    max-width:30%;
+    padding:1rem
 }

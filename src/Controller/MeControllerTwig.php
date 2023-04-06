@@ -30,16 +30,14 @@ class MeControllerTwig extends AbstractController
     public function lucky(): Response
     {
         $number = random_int(0, 2);
-        $bird = ["magpie", "parrot", "flamingo"][$number];
-        $img_bird = ["magpie.jpg", "parrot.webp", "flamingo.jpeg"][$number];
+        $bird = ["Magpie", "Parrot", "Flamingo"][$number];
+        $imgBird = ["magpie.jpg", "parrot.webp", "flamingo.jpeg"][$number];
 
         $data = [
             'bird' => $bird,
-            'img_bird' => $img_bird
+            'img_bird' => $imgBird
         ];
 
         return $this->render('lucky.html.twig', $data);
     }
-
-
 }
